@@ -1,0 +1,225 @@
+/* Navbar */
+.navbar-brand {
+    font-family: Viga;
+    font-size: 32px;
+    position: relative;
+    z-index: 99999999999999999999999999999;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .7);
+}
+
+.navbar {
+    transition: 1s;
+}
+
+.navbar-nav .nav-link {
+    font-family: Viga;
+    font-size: 16px;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #0B63DC;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+/* Akhir Navbar */
+
+
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    position: relative;
+    fill-opacity: inherit;
+    overflow: hidden;
+    margin-top: -100px;
+    height: 640px;
+}
+
+.jumbotron .display-4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    color: white !important;
+}
+
+.jumbotron .lead {
+    margin-top: -5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: silver !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+}
+
+.jumbotron a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: silver !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+}
+
+.jumbotron div .fa-whatsapp {
+    font-size: 25px;
+    margin-top: -300px;
+}
+
+.jumbotron div .fa-envelope {
+    font-size: 25px;
+    margin-top: -250px;
+}
+
+.jumbotron div .fa-map-marker-alt {
+    font-size: 25px;
+    margin-top: -200px;
+
+}
+
+.jumbotron img {
+    margin-top: 30px;
+    width: 25%;
+    position: relative;
+    z-index: 1;
+}
+
+
+/* Akhir Jumbotron */
+
+/* Skill */
+.info-panel {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, .2);
+    border-radius: 12px;
+    background-color: white;
+    margin-top: -170px;
+    padding: 30px;
+    position: relative;
+    z-index: 100;
+}
+
+.skill h2 {
+    font-size: 32px;
+    font-family: Viga;
+    margin-top: -25px;
+}
+
+.skill hr {
+    margin-top: -10px;
+}
+
+.info-panel p {
+    font-size: 14px;
+    font-family: 'Libre Baskerville', serif;
+    color: black;
+    opacity: 0;
+    transition: 1s;
+}
+
+/* Skill */
+
+/* Profil */
+
+
+/* Akhir Profil */
+.profil h2 {
+    font-size: 32px;
+    font-family: Viga;
+    /* margin-top: -25px; */
+}
+
+/* Foto */
+.foto h2 {
+    font-size: 32px;
+    font-family: Viga;
+    /* margin-top: -25px; */
+}
+
+/* Akhir foto */
+/* Temukan saya */
+.temukan_saya {
+    background-image: url(../img/landing.jpg);
+    background-attachment: fixed;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.temukan_saya h2 {
+    font-size: 32px;
+    font-family: Viga;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+}
+
+.temukan_saya .github {
+    font-size: 100px;
+    color: white;
+}
+
+.temukan_saya .linkedin {
+    font-size: 100px;
+    color: white;
+}
+
+.temukan_saya .instagram {
+    font-size: 100px;
+    color: white;
+}
+
+.temukan_saya .medium {
+    width: 40%;
+    font-size: 100px;
+    color: white;
+}
+
+/* Akhir temukan saya */
+
+/* Project */
+.project h5 {
+    color: black;
+}
+
+.project p {
+    color: gray;
+}
+
+.project h2 {
+    font-size: 32px;
+    font-family: Viga;
+}
+
+/* Akhir Project */
+
+/* Footer */
+/* footer {
+    position: fixed;
+    bottom: 0;
+    z-index: -20;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #262626;
+    color: #666;
+    font-size: 5em;
+    text-transform: uppercase;
+}
+
+body {
+    margin-bottom: 900px;
+    background-color: white;
+} */
