@@ -3,7 +3,7 @@ $('.page-scroll').on('click', function (e) {
     var elemenhref = $(href);
     var body = $("html, body");
     body.stop().animate({
-        scrollTop: elemenhref.offset().top - 80
+        scrollTop: elemenhref.offset().top - 73
     }, 1250, 'easeInOutExpo', function () {
         ;
     })

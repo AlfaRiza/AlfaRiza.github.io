@@ -138,14 +138,14 @@
 .profil h2 {
     font-size: 32px;
     font-family: Viga;
-    /* margin-top: -25px; */
+    margin-top: 25px;
 }
 
 /* Foto */
 .foto h2 {
     font-size: 32px;
     font-family: Viga;
-    /* margin-top: -25px; */
+    margin-top: -25px;
 }
 
 /* Akhir foto */
@@ -199,9 +199,17 @@
 .project h2 {
     font-size: 32px;
     font-family: Viga;
+    margin-top: 25px;
 }
 
 /* Akhir Project */
+
+/* footer */
+footer {
+    height: 150px;
+}
+
+/* akhir footer */
 
 /* Footer */
 /* footer {

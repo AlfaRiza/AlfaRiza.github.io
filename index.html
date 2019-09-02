@@ -22,7 +22,8 @@
     <link rel="stylesheet" href="font/css/all.css">
     <link rel="stylesheet" href="font/css/regular.css">
     <link rel="stylesheet" href="font/css/svg-with-js.css">
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
     <title>My Portfolio</title>
 </head>
 
@@ -30,7 +31,7 @@
     <!-- Navbar -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-light ">
         <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand page-scroll" href="#home">Navbar</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -41,6 +42,7 @@
                     <a class="nav-item nav-link page-scroll" href="#profil">Profil</a>
                     <a class="nav-item nav-link page-scroll" href="#foto">Foto</a>
                     <a class="nav-item nav-link page-scroll" href="#temukan_saya">Temukan saya</a>
+                    <a class="nav-item nav-link page-scroll" href="#project">Project</a>
                 </div>
             </div>
         </div>
@@ -54,10 +56,13 @@
     <section id="home" class="home page-scroll">
         <div class="jumbotron jumbotron-fluid">
             <div class="container text-center">
-                <img class="rounded-circle img-thumbnail" src="img/2.jpg" title="Foto Profile" alt="">
-                <h1 class="display-4">Hai, Aku Alfa</h1>
-                <p class="lead">Mahasiswa Informatika di UPN Yogyakarta</p>
-                <a href="#temukan_saya" class="btn btn-primary">Temukan saya</a>
+                <img class="rounded-circle img-thumbnail" data-aos="zoom-in-down" data-aos-duration="3000"
+                    src="img/2.jpg" title="Foto Profile" alt="">
+                <h1 class="display-4" data-aos="zoom-in-down" data-aos-duration="2000">Hai, Aku Alfa</h1>
+                <p class="lead" data-aos="zoom-in-down" data-aos-duration="1000">Mahasiswa Informatika di UPN Yogyakarta
+                </p>
+                <a href="#temukan_saya" class="btn btn-primary" data-aos="zoom-in-down" data-aos-duration="5000">Temukan
+                    saya</a>
                 <div>
                     <i class="fab fa-whatsapp text-white float-md-right"> 082260757992</i>
                     <i class="far fa-envelope text-white float-md-right"> malfariza45@gmail.com</i>
@@ -138,7 +143,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center">
+            <div class="row justify-content-center" data-aos="zoom-out-up" data-aos-duration="2000">
                 <div class="col-md-10 text-center">
                     <p>Assalamualaikum wr.wb, perkenalkan nama saya M.Alfa Riza biasa dipanggil Alfa,saya lahir di
                         Grobogan Jawa Tengah, tanggal 26 September 1998 dan sekarang sedang menempuh pendidikan di UPN
@@ -307,7 +312,7 @@
             </div>
             <div class="row text-center">
                 <div class="col-lg">
-                    <div data-aos="zoom-in-up">
+                    <div data-aos="zoom-in-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
                         <div class="card">
                             <img src="img/dpmf.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -317,7 +322,7 @@
                     </div>
                 </div>
                 <div class="col-lg">
-                    <div data-aos="zoom-in-up">
+                    <div data-aos="zoom-in-up" data-aos-duration="800" data-aos-easing="ease-in-sine">
                         <div class="card">
                             <img src="img/exfest.JPG" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -327,7 +332,7 @@
                     </div>
                 </div>
                 <div class="col-lg">
-                    <div data-aos="zoom-in-up">
+                    <div data-aos="zoom-in-up" data-aos-duration="1300" data-aos-easing="ease-in-sine">
                         <div class="card">
                             <img src="img/alkhawarizmi.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -337,7 +342,7 @@
                     </div>
                 </div>
                 <div class="col-lg">
-                    <div data-aos="zoom-in-up">
+                    <div data-aos="zoom-in-up" data-aos-duration="1800" data-aos-easing="ease-in-sine">
                         <div class="card">
                             <img src="img/baksos.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -464,15 +469,14 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
     <script src="js/bootstrap.min.js">
     </script>
-    <script src="javascript/jquery.easing.1.3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
     <script src="js/script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
