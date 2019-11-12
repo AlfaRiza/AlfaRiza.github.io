@@ -42,8 +42,8 @@ $(window).scroll(function () {
 
 $(window).on('scroll', function () {
     if ($(window).scrollTop()) {
-        $('.navbar').addClass('bg-dark');
+        $('.navbar').addClass('bg-black');
     } else {
-        $('.navbar').removeClass('bg-dark');
+        $('.navbar').removeClass('bg-black');
     }
 });

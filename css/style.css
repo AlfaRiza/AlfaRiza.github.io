@@ -6,6 +6,11 @@
     z-index: 99999999999999999999999999999;
 }
 
+.bg-black {
+    background-color: black;
+}
+
+
 .navbar-brand,
 .nav-link {
     color: white !important;
