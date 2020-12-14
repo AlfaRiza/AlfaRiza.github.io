@@ -50,7 +50,7 @@
     background-image: url(../img/1.jpg);
     background-size: cover;
     background-attachment: fixed;
-    text-align: center;
+    /* text-align: center; */
     position: relative;
     fill-opacity: inherit;
     overflow: hidden;
@@ -60,14 +60,14 @@
 
 .jumbotron .display-4 {
     font-family: 'Roboto', sans-serif;
-    font-size: 32px;
+    font-size: 60px;
     color: white !important;
 }
 
 .jumbotron .lead {
-    margin-top: -5px;
+    /* margin-top: -5px; */
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     color: silver !important;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
 }
@@ -97,7 +97,7 @@
 
 .jumbotron img {
     margin-top: 30px;
-    width: 25%;
+    width: 35%;
     position: relative;
     z-index: 1;
 }
@@ -110,7 +110,7 @@
     box-shadow: 0 3px 20px rgba(0, 0, 0, .2);
     border-radius: 12px;
     background-color: white;
-    margin-top: -170px;
+    margin-top: -120px;
     padding: 30px;
     position: relative;
     z-index: 100;
@@ -137,6 +137,19 @@
 /* Skill */
 
 /* Profil */
+.sekolah{
+    background-image: url(../img/landing.jpg);
+    background-attachment: fixed;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.sekolah h2{
+    font-size: 32px;
+    font-family: Viga;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+}
 
 
 /* Akhir Profil */
